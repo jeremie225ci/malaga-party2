@@ -15,7 +15,7 @@ export async function POST(request: NextRequest) {
     }
 
     const { data, error } = await resend.emails.send({
-      from: 'Malaga Party <onboarding@resend.dev>',
+      from: 'Malaga Party <info@malagaparty.com>',
       to: [email],
       subject: '¡Confirmación de Inscripción - Malaga Party! 🎉',
       html: `
