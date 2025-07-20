@@ -1,0 +1,19 @@
+// Reglas de Firestore para Malaga Party
+// Copia y pega estas reglas en la consola de Firebase
+
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Permitir escritura en la colección registrations
+    match /registrations/{document} {
+      allow write: if true;  // Permite escritura para desarrollo
+      allow read: if false;  // No permite lectura desde el cliente
+    }
+    
+    // Bloquear todo lo demás
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+} 

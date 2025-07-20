@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "title": "MALAGA",
+    "subtitle": "PARTY",
+    "description": "The most electrifying night of the year",
+    "cta": "Join the party"
+  },
+  "presentation": {
+    "title": "A unique experience",
+    "subtitle": "We're organizing the most memorable party in Malaga",
+    "features": {
+      "music": {
+        "title": "DJ Sets",
+        "description": "Electronic music"
+      },
+      "ambiance": {
+        "title": "Atmosphere",
+        "description": "Electric crowd"
+      }
+    },
+    "event": {
+      "date": {
+        "title": "Date",
+        "value": "Saturday August 9th, 2025"
+      },
+      "location": {
+        "title": "Location",
+        "value": "Malaga City Center, Spain"
+      }
+    },
+    "description": "Join us for an unforgettable night in the streets of Malaga. A unique experience with international DJs, breathtaking visual effects and an electrifying atmosphere that will mark your memories."
+  },
+  "registration": {
+    "title": "Registration",
+    "subtitle": "Book your spot for the wildest night!",
+    "form": {
+      "name": {
+        "label": "Full name",
+        "placeholder": "Your name"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "placeholder": "+1 234 567 8900"
+      },
+      "age": {
+        "label": "Age",
+        "placeholder": "Select your age",
+        "options": {
+          "18-25": "18-25 years",
+          "26-35": "26-35 years",
+          "36-45": "36-45 years",
+          "45+": "45+ years"
+        }
+      },
+      "group": {
+        "label": "Group size",
+        "placeholder": "How many people?",
+        "options": {
+          "1": "Solo",
+          "2": "2 people",
+          "3-5": "3-5 people",
+          "6+": "6+ people"
+        }
+      },
+      "message": {
+        "label": "Message (optional)",
+        "placeholder": "Tell us something..."
+      },
+      "submit": "🎉 Confirm my registration",
+      "required": "* Required fields. Your data is secure."
+    },
+    "success": {
+      "title": "Registration confirmed!",
+      "message": "Thank you {name}! You'll receive all the details by email soon."
+    }
+  },
+  "footer": {
+    "title": "MALAGA PARTY",
+    "subtitle": "The most anticipated event of the year",
+    "copyright": "© 2025 Malaga Party. All rights reserved.",
+    "disclaimer": "Event for adults only • Responsible consumption"
+  }
+}
